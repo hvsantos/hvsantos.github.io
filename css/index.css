@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #daa14c;
+  background-color: #222f5b;
   border-bottom: 10px solid black;
   padding: 10px 20px;
 }
@@ -11,7 +11,7 @@ nav {
 a {
   display: inline-flex;
   align-items: center;
-  color: #1d991b;
+  color: #9e379f;
   font-size: 20px;
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -20,7 +20,7 @@ a {
 }
 a::before {
   content: '';
-  background-color: red;
+  background-color: #c72000;
   width: 10px;
   height: 10px;
   margin-right: 10px;
@@ -30,12 +30,12 @@ a:hover {
 }
 #buttondl {
   display: inline-block;
-  background-color: #62c370;
+  background-color: #27b61b;
   padding: 18px 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
 }
 #buttondl:hover {
-  background-color: #6e94de;
+  background-color: #0e1a40;
   box-shadow: 5px 5px 0 gray;
 }
