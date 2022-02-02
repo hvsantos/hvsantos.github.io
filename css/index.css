@@ -25,6 +25,9 @@ a::before {
   height: 10px;
   margin-right: 10px;
 }
+a:hover {
+  color: #d20f20;
+}
 #buttondl {
   display: inline-block;
   background-color: #62c370;
@@ -34,5 +37,5 @@ a::before {
 }
 #buttondl:hover {
   background-color: #6e94de;
-  color: #d20f20;
+  box-shadow: 5px 5px 0 gray;
 }
