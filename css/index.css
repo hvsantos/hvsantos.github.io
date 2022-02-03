@@ -19,7 +19,7 @@ header {
   align-items: center;
   color: #c3ceda;
   font-size: 20px;
-  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
@@ -57,12 +57,14 @@ a::before {
 }
 #front-name {
   display: inline-block;
-  font-family: 'PRESS START 2P', Arial, Helvetica, sans-serif;
+  font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
   background-color: #e9a200;
   filter: drop-shadow(10px 10px 0px #000000);
-  padding: 42px 47px 44px 40px;
+  padding: 52px 14px 44px 13px;
   margin-top: 116px;
   margin-left: 91px;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #c3ceda;
@@ -72,6 +74,10 @@ a::before {
   font-size: 40px;
   line-height: 40px;
   color: #0c4160;
+}
+#name-info {
+  margin-top: 18px;
+  margin-left: 40px;
 }
 #nav-front {
   margin-top: 38px;
