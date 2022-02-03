@@ -42,10 +42,12 @@ a::before {
   padding: 18px 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
+  transition: transform 160ms ease-in-out;
 }
 #dlbutton-header:hover {
   background-color: #071330;
-  box-shadow: 5px 5px 0 #323637;
+  box-shadow: 7px 7px 0 #373737;
+  transform: scale(1.06);
 }
 #front-name {
   display: inline-block;
@@ -86,12 +88,14 @@ a::before {
   padding: 18px 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
+  transition: transform 160ms ease-in-out;
 }
 #dlbutton-front:hover,
 #contatos-front:hover {
   color: #7f0000;
   background-color: #071330;
-  box-shadow: 5px 5px 0 #323637;
+  box-shadow: 7px 7px 0 #373737;
+  transform: scale(1.06);
 }
 #contatos-front {
   margin-left: 132px;
