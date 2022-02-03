@@ -42,7 +42,7 @@ a::before {
   padding: 18px 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
-  transition: transform 160ms ease-in-out;
+  transition: transform 350ms cubic-bezier(0.42, 0, 0, 2.3);
 }
 #dlbutton-header:hover {
   background-color: #071330;
@@ -88,7 +88,7 @@ a::before {
   padding: 18px 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
-  transition: transform 160ms ease-in-out;
+  transition: transform 350ms cubic-bezier(0.42, 0, 0, 2.3);
 }
 #dlbutton-front:hover,
 #contatos-front:hover {
