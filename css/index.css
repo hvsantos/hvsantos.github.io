@@ -5,16 +5,14 @@ header {
   border-bottom: 10px solid black;
   padding: 10px 20px;
 }
-#site-header {
+#nav-header {
   text-align: right;
 }
 #skills-header,
 #projetos-header,
 #sobre-header,
 #contatos-header,
-#dlbutton-header,
-#dlbutton-front,
-#contatos-front {
+#dlbutton-header {
   display: inline-flex;
   align-items: center;
   color: #c3ceda;
@@ -35,23 +33,17 @@ a::before {
 #projetos-header:hover,
 #sobre-header:hover,
 #contatos-header:hover,
-#dlbutton-header:hover,
-#dlbutton-front:hover,
-#contatos-front:hover {
+#dlbutton-header:hover {
   color: #7f0000;
 }
-#dlbutton-header,
-#dlbutton-front,
-#contatos-front {
+#dlbutton-header {
   display: inline-block;
   background-color: #0c4160;
   padding: 18px 20px;
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
 }
-#dlbutton-header:hover,
-#dlbutton-front:hover,
-#contatos-front:hover {
+#dlbutton-header:hover {
   background-color: #071330;
   box-shadow: 5px 5px 0 #323637;
 }
@@ -63,10 +55,6 @@ a::before {
   padding: 52px 14px 44px 13px;
   margin-top: 116px;
   margin-left: 91px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
   color: #c3ceda;
   text-shadow: 4px 4px 0px #000000;
 }
@@ -78,10 +66,31 @@ a::before {
 #name-info {
   margin-top: 18px;
   margin-left: 40px;
+  font-size: 30px;
+  line-height: 30px;
 }
 #nav-front {
   margin-top: 38px;
   margin-left: 181px;
+}
+#dlbutton-front,
+#contatos-front {
+  display: inline-block;
+  color: #c3ceda;
+  font-size: 20px;
+  font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #0c4160;
+  padding: 18px 20px;
+  box-shadow: 5px 5px 0 black;
+  margin-right: 0px;
+}
+#dlbutton-front:hover,
+#contatos-front:hover {
+  color: #7f0000;
+  background-color: #071330;
+  box-shadow: 5px 5px 0 #323637;
 }
 #contatos-front {
   margin-left: 132px;
