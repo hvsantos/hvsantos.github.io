@@ -35,40 +35,26 @@ header {
 #skills:hover,
 #projetos:hover,
 #sobre:hover,
-#contatos:hover,
-.button:hover {
+#contatos:hover {
   color: #7f0000;
-}
-.button {
-  display: inline-block;
-  background-color: #0c4160;
-  padding: 18px 20px;
-  box-shadow: 5px 5px 0 black;
-  margin-right: 0px;
-  transition: transform 350ms cubic-bezier(0.42, 0, 0, 2.3);
-}
-.button:hover {
-  background-color: #071330;
-  box-shadow: 7px 7px 0 #373737;
-  transform: scale(1.06);
 }
 #main {
   background: url('../assets/img/testimg.png');
   background-size: auto;
   padding-bottom: 399px;
 }
-#front-infos {
+#main-infos {
   display: inline-block;
   font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
   background-color: #e9a200;
-  filter: drop-shadow(10px 10px 0px #000000);
+  filter: drop-shadow(10px 10px 0px #000);
   padding: 52px 14px 44px 13px;
   margin-top: 116px;
   margin-left: 91px;
   color: #c3ceda;
-  text-shadow: 4px 4px 0px #000000;
+  text-shadow: 4px 4px 0 #000;
 }
-#name {
+#name-main {
   font-size: 40px;
   line-height: 40px;
   color: #0c4160;
@@ -80,7 +66,7 @@ header {
   font-size: 30px;
   line-height: 30px;
 }
-#nav-front {
+#nav-main {
   margin-top: 38px;
   margin-left: 181px;
 }
