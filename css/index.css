@@ -52,7 +52,10 @@ header {
   box-shadow: 7px 7px 0 #373737;
   transform: scale(1.06);
 }
-#front-name {
+body {
+  background: url('../assets/img/testimg.png');
+}
+#front-infos {
   display: inline-block;
   font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
   background-color: #e9a200;
