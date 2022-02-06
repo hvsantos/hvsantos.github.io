@@ -52,8 +52,10 @@ header {
   box-shadow: 7px 7px 0 #373737;
   transform: scale(1.06);
 }
-body {
+#main {
   background: url('../assets/img/testimg.png');
+  background-size: auto;
+  padding-bottom: 399px;
 }
 #front-infos {
   display: inline-block;
