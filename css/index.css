@@ -40,7 +40,7 @@ header {
 }
 #main {
   background: url('../assets/img/testimg.png');
-  background-size: auto;
+  background-size: cover;
   padding-bottom: 399px;
   background-repeat: no-repeat;
 }
