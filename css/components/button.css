@@ -5,6 +5,11 @@
   box-shadow: 5px 5px 0 black;
   margin-right: 0px;
   transition: transform 350ms cubic-bezier(0.42, 0, 0, 2.3);
+  color: #c3ceda;
+  font-size: 20px;
+  font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
 }
 .button:hover {
   color: #7f0000;

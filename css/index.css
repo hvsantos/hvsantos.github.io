@@ -11,8 +11,7 @@ header {
 #skills,
 #projetos,
 #sobre,
-#contatos,
-.button {
+#contatos {
   display: inline-flex;
   align-items: center;
   color: #c3ceda;
@@ -46,26 +45,20 @@ header {
 }
 #main-block {
   display: inline-block;
-  font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
   background-color: #e9a200;
   filter: drop-shadow(10px 10px 0px #000);
   padding: 52px 14px 44px 13px;
   margin-top: 116px;
   margin-left: 91px;
-  color: #c3ceda;
   text-shadow: 4px 4px 0 #000;
 }
 #name-main {
-  font-size: 40px;
-  line-height: 40px;
   color: #0c4160;
 }
 #name-info {
   color: #9f0000;
   margin-top: 18px;
   margin-left: 40px;
-  font-size: 30px;
-  line-height: 30px;
 }
 #nav-main {
   margin-top: 38px;
