@@ -1,0 +1,9 @@
+#main-box {
+  display: inline-block;
+  background-color: #e9a200;
+  filter: drop-shadow(10px 10px 0px #000);
+  padding: 52px 14px 44px 13px;
+  margin-top: 116px;
+  margin-left: 91px;
+  text-shadow: 4px 4px 0 #000;
+}
