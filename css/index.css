@@ -1,42 +1,3 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #738fa7;
-  border-bottom: 10px solid black;
-  padding: 10px 20px;
-}
-#nav-header {
-  text-align: right;
-}
-#skills-header,
-#projetos,
-#sobre,
-#contatos {
-  display: inline-flex;
-  align-items: center;
-  color: #c3ceda;
-  font-size: 20px;
-  font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-  margin-right: 30px;
-}
-#skills-header::before,
-#projetos::before,
-#sobre::before,
-#contatos::before {
-  content: '';
-  background-color: #0c4160;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-}
-#skills-header:hover,
-#projetos:hover,
-#sobre:hover,
-#contatos:hover {
-  color: #7f0000;
-}
 #main {
   background: url('../assets/img/testimg.png');
   background-size: cover;
@@ -57,7 +18,7 @@ header {
   padding-bottom: 100px;
   border-bottom: 10px solid #738fa7;
 }
-#title-skills {
+#skills h1 {
   margin-left: 599px;
 }
 .skills-column {
@@ -67,6 +28,6 @@ header {
   padding-top: 50px;
   background-color: #000;
 }
-#title-projects {
+#projects h1 {
   margin-left: 560px;
 }
