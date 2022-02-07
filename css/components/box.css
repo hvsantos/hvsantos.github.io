@@ -2,9 +2,17 @@
   display: inline-block;
   background-color: #e9a200;
   filter: drop-shadow(10px 10px 0px #000);
-  width: 627px;
-  height: 184px;
+  padding: 52px 14px 44px 13px;
   margin-top: 116px;
   margin-left: 91px;
+  text-align: center;
   text-shadow: 4px 4px 0 #000;
+}
+
+#main-box h1 {
+  margin-bottom: 18px;
+  color: #0c4160;
+}
+#main-box h2 {
+  color: #9f0000;
 }
