@@ -11,10 +11,11 @@ header {
 #nav-header .header-tabs {
   display: inline-flex;
   align-items: center;
-  color: #c3ceda;
   font-size: 20px;
   font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+  color: #c3ceda;
   font-weight: 500;
+  margin-left: 0px;
   text-decoration: none;
   margin-right: 30px;
 }
