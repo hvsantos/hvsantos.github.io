@@ -18,7 +18,7 @@
   padding-bottom: 100px;
   border-bottom: 10px solid #738fa7;
 }
-#skills h1 {
+#skills .subtitle {
   margin-left: 599px;
 }
 .skills-column {
@@ -28,6 +28,6 @@
   padding-top: 50px;
   background-color: #000;
 }
-#projects h1 {
+#projects .subtitle {
   margin-left: 560px;
 }
