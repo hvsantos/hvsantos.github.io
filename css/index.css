@@ -9,6 +9,12 @@
 }
 .skills-column {
   display: inline-block;
+  margin-top: 60px;
+}
+.skills-info {
+  color: #c3ceda;
+  font-size: 25px;
+  font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 }
 #projetos {
   padding-top: 50px;
