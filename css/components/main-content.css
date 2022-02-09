@@ -1,14 +1,7 @@
-.main-content {
+#main-content {
   background: url('../../assets/img/testimg.png');
   background-size: cover;
   padding-bottom: 399px;
   background-repeat: no-repeat;
   border-bottom: 10px solid #000;
-}
-.buttons-main-content {
-  margin-top: 38px;
-  margin-left: 181px;
-}
-#buttonct {
-  margin-left: 132px;
 }
