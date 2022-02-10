@@ -1,7 +1,14 @@
-#main-content {
+#banner {
   background: url('../../assets/img/background-m-content.png');
   background-size: cover;
-  padding-bottom: 399px;
+  height: 800px;
   background-repeat: no-repeat;
   border-bottom: 10px solid #000;
+}
+.buttons-box {
+  margin-top: 38px;
+  margin-left: 181px;
+}
+#buttoncontatos {
+  margin-left: 132px;
 }
