@@ -2,6 +2,7 @@
   background-color: #c3ceda;
   width: 320px;
   height: 30px;
+  margin-left: 110px;
   border: 5px solid #000;
 }
 .progression-html {
@@ -10,7 +11,7 @@
   height: 30px;
 }
 .progression-nodejs {
-  width: 5%;
+  width: 2%;
   background-color: #738fa7;
   height: 30px;
 }
