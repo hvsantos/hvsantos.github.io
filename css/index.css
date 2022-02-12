@@ -8,8 +8,10 @@
   border-bottom: 10px solid #738fa7;
 }
 .skills-column {
-  display: inline-block;
+  text-align: initial;
+  display: inline-flex;
   margin-top: 60px;
+  margin-left: 235px;
 }
 .skills-info {
   color: #c3ceda;
