@@ -8,16 +8,29 @@
   border-bottom: 10px solid #738fa7;
 }
 .skills-column {
-  text-align: initial;
+  text-align: start;
   display: inline-flex;
+  flex-direction: row;
   margin-top: 60px;
-  margin-left: 235px;
+  margin-left: 22%;
+  margin-right: 22%;
+  width: 66%;
 }
 .skills-info {
+  text-align: initial;
+  margin-left: 10px;
   color: #c3ceda;
   font-size: 25px;
   font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 }
+.skills-left {
+  margin-right: 100px;
+}
+/* .box-skill {
+   width: 430px;
+  height: 90px; 
+} */
+
 #projetos {
   padding-top: 50px;
   padding-bottom: 100px;
