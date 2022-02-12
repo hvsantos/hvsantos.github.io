@@ -1,0 +1,40 @@
+#skills {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #0c4160;
+  border-bottom: 10px solid #738fa7;
+}
+.skills-column {
+  text-align: start;
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 14%;
+  margin-right: 22%;
+  width: 66%;
+}
+.skills-info {
+  text-align: initial;
+  margin-left: 110px;
+  color: #c3ceda;
+  font-size: 25px;
+  font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+.skills-left {
+  margin-right: 100px;
+}
+.box-skill {
+  width: 430px;
+  height: 90px;
+  margin-bottom: 38px;
+}
+.icon {
+  float: left;
+}
+#restapi-icon {
+  margin-top: 24px;
+}
+#ux-icon {
+  margin-top: 18px;
+}
