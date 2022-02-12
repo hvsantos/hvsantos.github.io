@@ -9,9 +9,7 @@
   display: inline-flex;
   flex-direction: row;
   margin-top: 60px;
-  margin-left: 14%;
-  margin-right: 22%;
-  width: 66%;
+  align-items: center;
 }
 .skills-info {
   text-align: initial;
