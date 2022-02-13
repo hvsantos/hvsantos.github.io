@@ -1,23 +1,10 @@
 #skills {
-  padding-top: 50px;
-  padding-bottom: 100px;
   background-color: #0c4160;
   border-bottom: 10px solid #738fa7;
 }
 .skills-column {
-  text-align: start;
   display: inline-flex;
-  flex-direction: row;
-  margin-top: 60px;
   align-items: center;
-}
-.skills-info {
-  text-align: initial;
-  margin-left: 110px;
-  color: #c3ceda;
-  font-size: 25px;
-  font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
-  margin-bottom: 16px;
 }
 .skills-left {
   margin-right: 100px;

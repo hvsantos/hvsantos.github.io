@@ -3,3 +3,10 @@
   font-size: 30px;
   font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
 }
+.subtitle.-skills {
+  font-size: 25px;
+  text-align: initial;
+  margin-left: 110px;
+  color: #c3ceda;
+  margin-bottom: 16px;
+}

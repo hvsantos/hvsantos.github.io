@@ -5,43 +5,31 @@
   margin-left: 110px;
   border: 5px solid #000;
 }
-.progression-html {
+.progression {
+  background-color: #738fa7;
+  height: 30px;
+}
+.progression.-html {
   width: 45%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-nodejs {
+.progression.-nodejs {
   width: 2%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-css {
+.progression.-css {
   width: 37%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-tdd {
+.progression.-tdd {
   width: 0%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-javascript {
+.progression.-javascript {
   width: 40%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-restapi {
+.progression.-restapi {
   width: 0%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-react {
+.progression.-react {
   width: 0%;
-  background-color: #738fa7;
-  height: 30px;
 }
-.progression-ux {
+.progression.-ux {
   width: 1%;
-  background-color: #738fa7;
-  height: 30px;
 }
