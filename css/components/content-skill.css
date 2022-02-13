@@ -30,9 +30,9 @@
 .icon {
   float: left;
 }
-.restapi-icon {
+.icon.-restapi {
   margin-top: 24px;
 }
-.ux-icon {
+.icon.-ux {
   margin-top: 18px;
 }
