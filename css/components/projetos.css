@@ -1,0 +1,21 @@
+#projetos {
+  background-color: #000;
+  border-bottom: 10px solid #0c4160;
+}
+.box-projetos {
+  text-align: initial;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.espacoprojeto {
+  border-radius: 15px;
+  padding: 15px;
+}
+.espacoprojeto.-um {
+  background-color: #c3ceda;
+}
+.espacoprojeto.-dois {
+  background-color: #738fa7;
+}
