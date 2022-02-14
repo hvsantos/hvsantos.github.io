@@ -1,4 +1,4 @@
-.action-tab {
+.action {
   display: inline-flex;
   align-items: center;
   font-size: 20px;
@@ -8,13 +8,13 @@
   text-decoration: none;
   margin-right: 30px;
 }
-.action-tab::before {
+.action::before {
   content: '';
   background-color: #0c4160;
   width: 10px;
   height: 10px;
   margin-right: 10px;
 }
-.action-tab:hover {
+.action:hover {
   color: #7f0000;
 }
