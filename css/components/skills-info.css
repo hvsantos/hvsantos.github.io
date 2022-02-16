@@ -4,7 +4,6 @@
 }
 .skills-column {
   display: inline-flex;
-  align-items: center;
 }
 .skills-left {
   margin-right: 100px;
