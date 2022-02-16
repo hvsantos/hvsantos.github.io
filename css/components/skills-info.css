@@ -13,6 +13,13 @@
   height: 90px;
   margin-bottom: 38px;
 }
+.box-skill .subtitle {
+  font-size: 25px;
+  text-align: initial;
+  margin-left: 110px;
+  color: #c3ceda;
+  margin-bottom: 16px;
+}
 .icon {
   float: left;
 }
