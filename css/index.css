@@ -1,9 +1,9 @@
-#sobre {
+.sobre-info {
   padding-bottom: 50px;
   background-color: #738fa7;
   border-bottom: 10px solid #000;
 }
-#contatos {
+.contatos-info {
   padding-bottom: 47px;
   background-color: #e9a200;
 }

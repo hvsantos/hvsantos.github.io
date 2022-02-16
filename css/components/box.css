@@ -1,4 +1,4 @@
-.box {
+.banner-box {
   display: inline-block;
   background-color: #e9a200;
   filter: drop-shadow(10px 10px 0px #000);
@@ -6,10 +6,10 @@
   text-align: center;
   text-shadow: 4px 4px 0 #000;
 }
-.box .title {
+.banner-box .main-title {
   margin-bottom: 18px;
   color: #0c4160;
 }
-.box .subtitle {
+.banner-box .subtitle {
   color: #9f0000;
 }

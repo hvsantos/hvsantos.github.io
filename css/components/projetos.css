@@ -1,4 +1,4 @@
-#projetos {
+.projetos-info {
   background-color: #000;
   border-bottom: 10px solid #0c4160;
 }
@@ -9,13 +9,13 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.espacoprojeto {
+.espaco-projeto {
   border-radius: 15px;
   padding: 15px;
 }
-.espacoprojeto.-um {
+.espaco-projeto.-um {
   background-color: #c3ceda;
 }
-.espacoprojeto.-dois {
+.espaco-projeto.-dois {
   background-color: #738fa7;
 }

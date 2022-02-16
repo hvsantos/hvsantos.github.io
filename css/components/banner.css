@@ -1,11 +1,11 @@
-#banner {
+.main-banner {
   background: url('../../assets/img/background-m-content.png');
   background-size: cover;
   height: 800px;
   background-repeat: no-repeat;
   border-bottom: 10px solid #000;
 }
-#banner .box {
+.main-banner .banner-box {
   margin-top: 116px;
   margin-left: 91px;
 }
