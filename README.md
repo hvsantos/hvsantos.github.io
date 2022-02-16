@@ -1,7 +1,7 @@
 # Projeto Portifolio - HTML e CSS
 
 Link para preview do site: https://hvsantos.github.io/  
-É utilizado ferramentas experimentais no site para a estilização da 'progressbar'.  
+É utilizado ferramentas experimentais para a estilização da 'progressbar'.  
 Se a cor ou alguma outra coisa aparecer estranha, é por causa disso. Para melhor visualização, abrir com o Chrome ou Mozilla.  
 
 Curso de HTML e CSS Feliz do Marco Bruno (CollabCode)  
