@@ -1,45 +1,12 @@
-/* Could use -webkit/-moz + -progressbar with the tag <progressbar> but i won't use since it's in test
-html ex:
-<progress  class="progress-bar"value="70" max="100">70 %</progress> 
-css ex:
-.progress-bar::-webkit-progress-bar,
-.progress-bar::-moz-progress-bar{
-  values/proprieties
-}
-*/
-.progressbar {
+.progress-bar {
   background-color: #c3ceda;
   width: 320px;
   height: 40px;
-  margin-left: 110px;
+
   border: 5px solid #000;
   box-sizing: border-box;
 }
-.progression {
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar {
   background-color: #738fa7;
-  height: 30px;
-}
-.progression.-html {
-  width: 45%;
-}
-.progression.-nodejs {
-  width: 2%;
-}
-.progression.-css {
-  width: 37%;
-}
-.progression.-tdd {
-  width: 0%;
-}
-.progression.-javascript {
-  width: 40%;
-}
-.progression.-restapi {
-  width: 0%;
-}
-.progression.-react {
-  width: 0%;
-}
-.progression.-ux {
-  width: 1%;
 }
