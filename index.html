@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="css/components/main-title.css" />
     <link rel="stylesheet" href="css/components/progressbar.css" />
     <link rel="stylesheet" href="css/components/projetos.css" />
-    <link rel="stylesheet" href="css/components/skills-info.css" />
+    <link rel="stylesheet" href="css/components/skills-section.css" />
+    <link rel="stylesheet" href="css/components/skills-wrapper.css" />
     <link rel="stylesheet" href="css/components/subtitle.css" />
   </head>
   <body>
@@ -50,67 +51,78 @@
         <a class="button -btcontatos" href="#contatos">Contatos</a>
       </div>
     </section>
-    <section id="skills" class="skills-info content-prop">
+    <section id="skills" class="skills-section content-prop">
       <h2 class="main-title -content" lang="en">Skills</h2>
-      <div class="skills-column">
-        <div class="skills-left">
-          <div class="box-skill">
-            <img class="icon" src="img/html-icon.png" alt="Icon HTML" />
+      <div class="skills-wrapper">
+        <article class="skill-elements">
+          <img class="icon" src="img/html-icon.png" alt="Icon HTML" />
+          <div class="skillalign">
             <h3 class="subtitle" lang="en">HTML</h3>
             <progress class="progress-bar" value="30" max="100">30 %</progress>
           </div>
-          <div class="box-skill">
-            <img
-              class="icon"
-              class="icon"
-              src="img/css-icon.png"
-              alt="Icon CSS3"
-            />
-            <h3 class="subtitle" lang="en">CSS3</h3>
-            <progress class="progress-bar" value="30" max="100">30 %</progress>
-          </div>
-          <div class="box-skill">
-            <img
-              class="icon"
-              src="img/javascript-icon.png"
-              alt="Icon JavaScript"
-            />
-            <h3 class="subtitle" lang="en">JavaScript</h3>
-            <progress class="progress-bar" value="30" max="100">30 %</progress>
-          </div>
-          <div class="box-skill">
-            <img class="icon" src="img/react-icon.png" alt="Icon REACT" />
-            <h3 class="subtitle" lang="en">React</h3>
-            <progress class="progress-bar" value="0" max="100">0 %</progress>
-          </div>
-        </div>
-
-        <div class="skills-right">
-          <div class="box-skill">
-            <img class="icon" src="img/nodejs-icon.png" alt="Icon NODEjs" />
+        </article>
+        <article class="skill-elements">
+          <img class="icon" src="img/nodejs-icon.png" alt="Icon NODEjs" />
+          <div class="skillalign">
             <h3 class="subtitle" lang="en">NodeJS</h3>
             <progress class="progress-bar" value="3" max="100">3 %</progress>
           </div>
-          <div class="box-skill">
-            <img class="icon" src="img/tdd-icon.png" alt="Icon TDD" />
+        </article>
+        <article class="skill-elements">
+          <img
+            class="icon"
+            class="icon"
+            src="img/css-icon.png"
+            alt="Icon CSS3"
+          />
+          <div class="skillalign">
+            <h3 class="subtitle" lang="en">CSS3</h3>
+            <progress class="progress-bar" value="30" max="100">30 %</progress>
+          </div>
+        </article>
+        <article class="skill-elements">
+          <img class="icon" src="img/tdd-icon.png" alt="Icon TDD" />
+          <div class="skillalign">
             <h3 class="subtitle" lang="en">TDD</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
-          <div class="box-skill">
-            <img
-              class="icon -restapi"
-              src="img/restapi-icon.png"
-              alt="Icon RestAPI"
-            />
+        </article>
+        <article class="skill-elements">
+          <img
+            class="icon"
+            src="img/javascript-icon.png"
+            alt="Icon JavaScript"
+          />
+          <div class="skillalign">
+            <h3 class="subtitle" lang="en">JavaScript</h3>
+            <progress class="progress-bar" value="30" max="100">30 %</progress>
+          </div>
+        </article>
+        <article class="skill-elements">
+          <img
+            class="icon -restapi"
+            src="img/restapi-icon.png"
+            alt="Icon RestAPI"
+          />
+          <div class="skillalign">
             <h3 class="subtitle" lang="en">Rest API</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
-          <div class="box-skill">
-            <img class="icon -ux" src="img/ux-icon.png" alt="Icon UX" />
+        </article>
+        <article class="skill-elements">
+          <img class="icon" src="img/react-icon.png" alt="Icon REACT" />
+          <div class="skillalign">
+            <h3 class="subtitle" lang="en">React</h3>
+            <progress class="progress-bar" value="0" max="100">0 %</progress>
+          </div>
+        </article>
+        <article class="skill-elements">
+          <img class="icon -ux" src="img/ux-icon.png" alt="Icon UX" />
+          <div class="skillalign">
             <h3 class="subtitle" lang="en">UX</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
-        </div>
+        </article>
       </div>
     </section>
     <section id="projetos" class="projetos-info content-prop">
