@@ -1,8 +1,4 @@
-.projetos-info {
-  background-color: #000;
-  border-bottom: 10px solid #0c4160;
-}
-.box-projetos {
+.projetos-wrapper {
   text-align: initial;
   display: flex;
   flex-wrap: wrap;
@@ -13,9 +9,9 @@
   border-radius: 15px;
   padding: 15px;
 }
-.espaco-projeto.-um {
+.espaco-projeto:nth-child(1) {
   background-color: #c3ceda;
 }
-.espaco-projeto.-dois {
+.espaco-projeto:nth-child(2) {
   background-color: #738fa7;
 }

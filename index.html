@@ -17,18 +17,19 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/components/action.css" />
-    <link rel="stylesheet" href="css/components/box.css" />
     <link rel="stylesheet" href="css/components/button.css" />
-    <link rel="stylesheet" href="css/components/content.css" />
+    <link rel="stylesheet" href="css/components/content-comp.css" />
     <link rel="stylesheet" href="css/components/footer.css" />
-    <link rel="stylesheet" href="css/components/banner.css" />
+    <link rel="stylesheet" href="css/components/main-banner.css" />
+    <link rel="stylesheet" href="css/components/main-box.css" />
     <link rel="stylesheet" href="css/components/main-header.css" />
+    <link rel="stylesheet" href="css/components/main-subtitle.css" />
     <link rel="stylesheet" href="css/components/main-title.css" />
     <link rel="stylesheet" href="css/components/progressbar.css" />
-    <link rel="stylesheet" href="css/components/projetos.css" />
+    <link rel="stylesheet" href="css/components/projetos-section.css" />
+    <link rel="stylesheet" href="css/components/projetos-wrapper.css" />
     <link rel="stylesheet" href="css/components/skills-section.css" />
     <link rel="stylesheet" href="css/components/skills-wrapper.css" />
-    <link rel="stylesheet" href="css/components/subtitle.css" />
   </head>
   <body>
     <header class="main-header">
@@ -42,29 +43,29 @@
       </nav>
     </header>
     <section class="main-banner">
-      <div class="banner-box">
+      <div class="main-box">
         <h1 class="main-title">Henrique Vilela</h1>
-        <h2 class="subtitle" lang="en">FrontEnd Developer</h2>
+        <h2 class="main-subtitle" lang="en">FrontEnd Developer</h2>
       </div>
       <div class="buttons-box">
         <a class="button" href="downloadtest.html" lang="en">Download CV</a>
         <a class="button -btcontatos" href="#contatos">Contatos</a>
       </div>
     </section>
-    <section id="skills" class="skills-section content-prop">
+    <section id="skills" class="skills-section content-comp">
       <h2 class="main-title -content" lang="en">Skills</h2>
       <div class="skills-wrapper">
         <article class="skill-elements">
           <img class="icon" src="img/html-icon.png" alt="Icon HTML" />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">HTML</h3>
+            <h3 class="main-subtitle" lang="en">HTML</h3>
             <progress class="progress-bar" value="30" max="100">30 %</progress>
           </div>
         </article>
         <article class="skill-elements">
           <img class="icon" src="img/nodejs-icon.png" alt="Icon NODEjs" />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">NodeJS</h3>
+            <h3 class="main-subtitle" lang="en">NodeJS</h3>
             <progress class="progress-bar" value="3" max="100">3 %</progress>
           </div>
         </article>
@@ -76,14 +77,14 @@
             alt="Icon CSS3"
           />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">CSS3</h3>
+            <h3 class="main-subtitle" lang="en">CSS3</h3>
             <progress class="progress-bar" value="30" max="100">30 %</progress>
           </div>
         </article>
         <article class="skill-elements">
           <img class="icon" src="img/tdd-icon.png" alt="Icon TDD" />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">TDD</h3>
+            <h3 class="main-subtitle" lang="en">TDD</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
         </article>
@@ -94,7 +95,7 @@
             alt="Icon JavaScript"
           />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">JavaScript</h3>
+            <h3 class="main-subtitle" lang="en">JavaScript</h3>
             <progress class="progress-bar" value="30" max="100">30 %</progress>
           </div>
         </article>
@@ -105,45 +106,45 @@
             alt="Icon RestAPI"
           />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">Rest API</h3>
+            <h3 class="main-subtitle" lang="en">Rest API</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
         </article>
         <article class="skill-elements">
           <img class="icon" src="img/react-icon.png" alt="Icon REACT" />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">React</h3>
+            <h3 class="main-subtitle" lang="en">React</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
         </article>
         <article class="skill-elements">
           <img class="icon -ux" src="img/ux-icon.png" alt="Icon UX" />
           <div class="skillalign">
-            <h3 class="subtitle" lang="en">UX</h3>
+            <h3 class="main-subtitle" lang="en">UX</h3>
             <progress class="progress-bar" value="0" max="100">0 %</progress>
           </div>
         </article>
       </div>
     </section>
-    <section id="projetos" class="projetos-info content-prop">
+    <section id="projetos" class="projetos-section content-comp">
       <h2 class="main-title -content">Projetos</h2>
-      <div class="box-projetos">
-        <div class="espaco-projeto -um">
+      <div class="projetos-wrapper">
+        <div class="espaco-projeto">
           <a href="https://github.com/hvsantos">
             <img src="assets/img/GitHub-Mark-120px-plus.png" />
           </a>
         </div>
-        <div class="espaco-projeto -dois">
+        <div class="espaco-projeto">
           <a href="https://hvsantos.github.io/">
             <img src="assets/img/GitHub-Mark-120px-plus.png" />
           </a>
         </div>
       </div>
     </section>
-    <section id="sobre" class="sobre-info content-prop">
+    <section id="sobre" class="sobre-section content-comp">
       <h2 class="main-title -content">Sobre</h2>
     </section>
-    <section id="contatos" class="contatos-info content-prop">
+    <section id="contatos" class="contatos-section content-comp">
       <h2 class="main-title -content">Contatos</h2>
     </section>
   </body>

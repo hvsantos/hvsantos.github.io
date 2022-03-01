@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   border-bottom: 10px solid #000;
 }
-.main-banner .banner-box {
+.main-banner .main-box {
   margin-top: 116px;
   margin-left: 91px;
 }
@@ -13,6 +13,10 @@
   margin-top: 38px;
   margin-left: 181px;
 }
-.button.-btcontatos {
-  margin-left: 132px;
+.main-banner .main-box .main-title {
+  margin-bottom: 18px;
+  color: #0c4160;
+}
+.main-banner .main-box .main-subtitle {
+  color: #9f0000;
 }
