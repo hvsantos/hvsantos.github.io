@@ -1,0 +1,11 @@
+.footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px;
+  background-color: #555;
+}
+.footericon {
+  background-color: #c3ceda;
+}
