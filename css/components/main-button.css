@@ -1,4 +1,4 @@
-.button {
+.main-button {
   display: inline-block;
   background-color: #0c4160;
   padding: 18px 20px;
@@ -10,12 +10,12 @@
   transition: transform 350ms cubic-bezier(0.42, 0, 0, 2.3);
   text-decoration: none;
 }
-.button:hover {
+.main-button:hover {
   color: #7f0000;
   background-color: #071330;
   box-shadow: 7px 7px 0 #373737;
   transform: scale(1.06);
 }
-.button.-btcontatos {
+.main-button.-btcontatos {
   margin-left: 132px;
 }

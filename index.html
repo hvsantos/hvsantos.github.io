@@ -16,32 +16,31 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/components/action.css" />
-    <link rel="stylesheet" href="css/components/button.css" />
-    <link rel="stylesheet" href="css/components/contatos-section.css" />
-    <link rel="stylesheet" href="css/components/content-comp.css" />
+
+    <link rel="stylesheet" href="css/components/content-sections.css" />
     <link rel="stylesheet" href="css/components/footer-section.css" />
+    <link rel="stylesheet" href="css/components/main-action.css" />
     <link rel="stylesheet" href="css/components/main-banner.css" />
     <link rel="stylesheet" href="css/components/main-box.css" />
+    <link rel="stylesheet" href="css/components/main-button.css" />
     <link rel="stylesheet" href="css/components/main-header.css" />
     <link rel="stylesheet" href="css/components/main-subtitle.css" />
     <link rel="stylesheet" href="css/components/main-title.css" />
-    <link rel="stylesheet" href="css/components/progressbar.css" />
-    <link rel="stylesheet" href="css/components/projetos-section.css" />
+    <link rel="stylesheet" href="css/components/progress-bar.css" />
     <link rel="stylesheet" href="css/components/projetos-wrapper.css" />
-    <link rel="stylesheet" href="css/components/skills-section.css" />
     <link rel="stylesheet" href="css/components/skills-wrapper.css" />
-    <link rel="stylesheet" href="css/components/sobre-section.css" />
   </head>
   <body>
     <header class="main-header">
       <img src="assets/img/hv-logo.png" alt="Logo do Site" />
       <nav>
-        <a class="action" href="#skills" lang="en">Skills</a>
-        <a class="action" href="#projetos">Projetos</a>
-        <a class="action" href="#sobre">Sobre</a>
-        <a class="action" href="#contatos">Contatos</a>
-        <a class="button" href="downloadtest.html" lang="en">Download CV</a>
+        <a class="main-action" href="#skills" lang="en">Skills</a>
+        <a class="main-action" href="#projetos">Projetos</a>
+        <a class="main-action" href="#sobre">Sobre</a>
+        <a class="main-action" href="#contatos">Contatos</a>
+        <a class="main-button" href="downloadtest.html" lang="en"
+          >Download CV</a
+        >
       </nav>
     </header>
     <section class="main-banner">
@@ -50,11 +49,13 @@
         <h2 class="main-subtitle" lang="en">FrontEnd Developer</h2>
       </div>
       <div class="buttons-box">
-        <a class="button" href="downloadtest.html" lang="en">Download CV</a>
-        <a class="button -btcontatos" href="#contatos">Contatos</a>
+        <a class="main-button" href="downloadtest.html" lang="en"
+          >Download CV</a
+        >
+        <a class="main-button -btcontatos" href="#contatos">Contatos</a>
       </div>
     </section>
-    <section id="skills" class="skills-section content-comp">
+    <section id="skills" class="content-sections -skills">
       <h2 class="main-title -content" lang="en">Skills</h2>
       <div class="skills-wrapper">
         <article class="skill-elements">
@@ -128,20 +129,20 @@
         </article>
       </div>
     </section>
-    <section id="projetos" class="projetos-section content-comp">
+    <section id="projetos" class="content-sections -projetos">
       <h2 class="main-title -content">Projetos</h2>
       <div class="projetos-wrapper">
         <div class="espaco-projeto">
-          <a href="https://github.com/hvsantos">
+          <a href="https://hvsantos.github.io">
             <img src="assets/img/GitHub-Mark-120px-plus.png" />
           </a>
         </div>
       </div>
     </section>
-    <section id="sobre" class="sobre-section content-comp">
+    <section id="sobre" class="content-sections -sobre">
       <h2 class="main-title -content">Sobre</h2>
     </section>
-    <section id="contatos" class="contatos-section content-comp">
+    <section id="contatos" class="content-sections -contatos">
       <h2 class="main-title -content">Contatos</h2>
     </section>
   </body>
