@@ -8,6 +8,7 @@
 .espaco-projeto {
   border-radius: 15px;
   padding: 15px;
+  box-shadow: 6px 6px 0 #fff;
 }
 .espaco-projeto:nth-child(1) {
   background-color: #c3ceda;
