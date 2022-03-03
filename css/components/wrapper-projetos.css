@@ -1,15 +1,19 @@
 .wrapper-projetos {
-  text-align: initial;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  text-align: initial;
   justify-content: space-evenly;
 }
 .espaco-projeto {
-  border-radius: 15px;
-  padding: 15px;
-  box-shadow: 6px 6px 0 #fff;
+  box-shadow: 10px 10px 0 #fff;
 }
-.espaco-projeto:nth-child(1) {
-  background-color: #c3ceda;
+.espaco-projeto.-var1 {
+  background-color: #738fa7;
+}
+.espaco-projeto.-var2 {
+  background-color: #071330;
+}
+.iconprojeto {
+  padding: 10px;
+  width: 240px;
+  height: 240px;
 }
