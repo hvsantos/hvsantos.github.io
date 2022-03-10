@@ -1,0 +1,20 @@
+.wrapper-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+.inputform {
+  background-color: #c3ceda;
+  height: 50px;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  width: 1300px;
+  color: #0c4160;
+  font-weight: 500;
+  text-align: start;
+}
+.inputform.-message {
+  height: 320px;
+}
