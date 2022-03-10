@@ -23,9 +23,11 @@
     <link rel="stylesheet" href="css/components/main-box.css" />
     <link rel="stylesheet" href="css/components/main-button.css" />
     <link rel="stylesheet" href="css/components/main-header.css" />
+    <link rel="stylesheet" href="css/components/main-paragraph.css" />
     <link rel="stylesheet" href="css/components/main-subtitle.css" />
     <link rel="stylesheet" href="css/components/main-title.css" />
     <link rel="stylesheet" href="css/components/progress-bar.css" />
+    <link rel="stylesheet" href="css/components/wrapper-form.css" />
     <link rel="stylesheet" href="css/components/wrapper-projetos.css" />
     <link rel="stylesheet" href="css/components/wrapper-skills.css" />
   </head>
@@ -144,9 +146,30 @@
     </section>
     <section id="sobre" class="content-sections -sobre -bd">
       <h2 class="main-title -content">Sobre</h2>
+      <div><!-- Espaço SOBRE - CARROSSEL --></div>
+      <p class="main-paragraph">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aliquid,
+        minus repudiandae sed magni amet dolorem quam consectetur, ut,
+        repellendus accusamus quia. Ipsa ad ut beatae possimus eius maiores
+        velit!
+      </p>
     </section>
     <section id="contatos" class="content-sections -contatos">
       <h2 class="main-title -content">Contatos</h2>
+      <form class="wrapper-form">
+        <label for="input-nome" class="labelform main-paragraph">Nome</label>
+        <input id="input-nome" type="text" class="inputform main-paragraph" />
+
+        <label for="input-email" class="labelform main-paragraph">Email</label>
+        <input id="input-email" type="email" class="inputform main-paragraph" />
+
+        <label for="input-message" class="labelform main-paragraph"
+          >Mensagem</label
+        >
+        <input id="input-message" class="inputform -message main-paragraph" />
+
+        <button class="main-button -form">Enviar</button>
+      </form>
     </section>
   </body>
   <footer class="footer-section">
